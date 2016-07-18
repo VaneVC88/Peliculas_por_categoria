@@ -1,0 +1,97 @@
+@media screen and (max-width : 1024px){
+    .container-fluid{
+        width: $cien
+    }
+    .container{
+        width: $cien;
+    }
+    .row{
+        width: $cien;
+    }
+    .inicio{
+        button{
+            margin-top: $dos;
+            margin-left: $cuatro;
+        }
+    }
+    .pelicula{
+        iframe{
+            width: $cien;
+        }
+    }
+    .actors{
+        img{
+            margin-left: 396px;
+        }
+        .nombre{
+            margin-left: 396px;
+        }
+    }
+    .pelis{
+        padding-left: $cuatro;
+        padding-right: 0;
+        .pi{
+            img{
+                height: 271px;
+            }
+        }
+    }
+}
+@media screen and (max-width : 736px){
+    .container-fluid{
+        width: $cien;
+    }
+    .container{
+        width: $cien;
+    }
+    .row{
+        width: $cien;
+    }
+    .inicio{
+        padding-left: 6%;
+        h2{
+            margin-left: 0;
+        }
+        button{
+            margin-top: $dos;
+            margin-left: $cuatro;
+        }
+    }
+    .pelicula{
+        padding-left: 6%;
+        padding-right: 0;
+    }
+    .actors{
+        padding-left: 7%;
+        padding-right: $cuatro;
+        img{
+            margin-left: 0;
+            float: left;
+            width: 20%;
+            &:hover{
+                width: 25%;
+            }
+        }
+        .nombre{
+            margin-left: 1%;
+            float: left;
+        }
+    }
+    .categoria{
+        padding-left: 13%;
+        padding-right: $tres;
+        .btn-group{
+            .btn{
+                margin-left: 95%;
+            }
+        }
+    }
+    .pelis{
+        padding-left: 10%;
+        padding-right: 0;
+        .pi{
+            width: 70%;
+            margin-left: 14%;
+        }
+    }
+}

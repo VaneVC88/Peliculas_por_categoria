@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	  	<link rel="stylesheet" href="css/main.css">
+	  	<link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+
+	<header class="bg_red">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1>CINE K2FCS</h1>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="categoria">
+		<div class="row">
+			<div class="col-sm-3">
+				<h2>Escoge una categoria: </h2>
+			</div>
+			<div class="btn-group col-sm-3">
+  				<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    			Categorias <span class="caret"></span>
+  				</button>
+  				<ul class="dropdown-menu">
+					<li id="todas"><a href="#">Todas</a></li>
+  					<li class="divider"><a href="#">Todas</a></li>
+    				<li onclick="accion()"><a href="#">Accion</a></li>
+    				<li onclick="comedia()"><a href="#">Comedia</a></li>
+    				<li onclick="ficcion()"><a href="#">Ciencia Ficción</a>	</li>
+    				<li onclick="infantil()"><a href="#">Infantil</a></li>
+    				<li onclick="romance()"><a href="#">Romantica</a></li>
+    				<li onclick="terror()"><a href="#">Terror</a></li>
+  				</ul>
+  			</div>
+		</div>
+	</section>
+
+	<section class="container pelis">
+		<div class="row">
+			<article class="col-sm-3 movies action" value="accion ">
+				<a href="Busqueda.html">
+					<h2>Busqueda Implacable 3</h2>
+					<figure>
+						<img class="accion" src="img/imagen1.jpg" alt="">
+					</figure>
+				</a>
+			</article>
+			<article class="col-sm-3 movies comedy">
+				<a href="Soltera.html">
+					<h2>Cómo ser soltera</h2>
+					<figure>
+						<img class="comedia"src="img/imagen3.jpg" alt="">
+					</figure>
+				</a>
+			</article>
+			<article class="col-sm-3 movies action" value="accion">
+				<a href="huracan.html">
+					<h2>En el tornado</h2>
+					<figure>
+						<img class="accion"src="img/imagen2.jpg" alt="">
+					</figure>
+				</a>
+			</article>
+			<article class="col-sm-3 movies comedy">
+				<a href="Neighbors.html">
+					<h2>Buenos vecinos</h2>
+					<figure>
+						<img class="comedia"src="img/imagen4.jpg" alt="">
+					</figure>
+				</a>
+			</article>
+		</div>
+
+		<div class="row">
+			<article class="col-sm-3 movies fiction">
+				<a href="The-Avengers.html">
+					<h2>Los vengadores 2</h2>
+					<figure>
+						<img class="ciencia_ficcion"src="img/imagen5.jpg" alt="">
+					</figure>
+				</a>
+			</article>
+			<article class="col-sm-3 movies kids">
+				<a href="Zootopia.html">
+					<h2>Zootopia</h2>
+					<figure>
+						<img class="infantil"src="img/imagen7.jpg" alt="">
+					</figure>
+				</a>
+			</article>
+			<article class="col-sm-3 movies fiction">
+				<a href="X-Men.html">
+					<h2>X-Men: Apocalipsis</h2>
+					<figure>
+						<img class="ciencia_ficcion"src="img/imagen6.jpg" alt="">
+					</figure>
+				</a>
+			</article>
+			<article class="col-sm-3 movies kids">
+				<a href="Ice_age.html">
+					<h2>La era de Hielo 5</h2>
+					<figure>
+						<img class="infantil"src="img/imagen8.jpg" alt="">
+					</figure>
+				</a>
+			</article>
+		</div>
+
+		<div class="row">
+			<article class="col-sm-3 movies love">
+				<a href="Diario_pasion.html">
+					<h2>Diario de una pasión</h2>
+					<figure>
+						<img class="romantica"src="img/imagen9.jpg" alt="">
+					</figure>
+				</a>
+			</article>
+			<article class="col-sm-3 movies scary">
+				<a href="noche_demonio.html">
+					<h2>Insidius Chapter 3</h2>
+					<figure>
+						<img class="terror"src="img/imagen11.jpg" alt="">
+					</figure>
+				</a>
+			</article>
+			<article class="col-sm-3 movies love">
+				<a href="antes_de_ti.html">
+					<h2>Yo antes de ti</h2>
+					<figure>
+						<img class="romantica"src="img/imagen10.jpg" alt="">
+					</figure>
+				</a>
+			</article>
+			<article class="col-sm-3 movies scary">
+				<a href="libranos.html">
+					<h2>Libranos del mal</h2>
+					<figure>
+						<img class="terror"src="img/imagen12.jpg" alt="">
+					</figure>
+				</a>
+			</article>
+		</div>
+	</section>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

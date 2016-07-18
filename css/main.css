@@ -1,0 +1,185 @@
+body {
+  background-color: black; }
+  body .categoria {
+    padding-left: 3%;
+    padding-right: 3%; }
+    body .categoria h2 {
+      font-size: 25px;
+      margin-left: 10%;
+      color: #fcf8e3; }
+    body .categoria button {
+      margin-top: 5%;
+      padding: 7px 27px;
+      font-size: 17px;
+      color: #f5f5f5;
+      background-color: #c50e27;
+      border-color: #b30c13; }
+      body .categoria button:hover {
+        background-color: #c50e27;
+        color: #f5f5f5;
+        border-color: #b30c13; }
+  body .pelis {
+    padding-bottom: 5%; }
+    body .pelis .movies {
+      border: 2px solid #c50e27;
+      margin: 2%;
+      padding-left: 6px;
+      padding-right: 6px;
+      width: 21%;
+      height: 362px;
+      text-align: center; }
+      body .pelis .movies img {
+        width: 95%;
+        height: 300px; }
+        body .pelis .movies img:hover {
+          width: 100%; }
+      body .pelis .movies a {
+        text-decoration: none;
+        color: #fcf8e3; }
+        body .pelis .movies a h2 {
+          font-size: 20px; }
+
+.bg_red {
+  background-color: #c50e27; }
+  .bg_red h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: whitesmoke;
+    font-family: Shadows Into Light; }
+
+.inicio {
+  padding-left: 3%;
+  padding-right: 3%; }
+  .inicio h2 {
+    font-size: 25px;
+    margin-left: 10%;
+    color: #fcf8e3; }
+  .inicio button {
+    margin-top: 1%;
+    padding: 7px 27px;
+    font-size: 17px;
+    color: #f5f5f5;
+    background-color: #c50e27;
+    border-color: #b30c13; }
+    .inicio button:hover {
+      background-color: #c50e27;
+      color: #f5f5f5;
+      border-color: #b30c13; }
+
+.pelicula {
+  margin-top: 5%; }
+  .pelicula ul {
+    padding: 0; }
+    .pelicula ul li {
+      list-style: none;
+      padding: 0;
+      font-size: 20px;
+      color: #fcf8e3; }
+  .pelicula h3 a {
+    color: #c50e27;
+    font-size: 18px;
+    text-decoration: none; }
+  .pelicula p {
+    color: #fcf8e3;
+    font-size: 15px; }
+
+.actors {
+  padding: 2% 0;
+  padding-bottom: 5%; }
+  .actors h3 {
+    margin-left: 615px;
+    color: #c50e27;
+    margin-bottom: 3%; }
+  .actors img {
+    width: 50%;
+    border-radius: 20px;
+    margin-left: 605px; }
+    .actors img:hover {
+      width: 55%;
+      opacity: 0.5; }
+  .actors .nombre {
+    margin-left: 605px;
+    width: 100%; }
+    .actors .nombre h4 {
+      color: #c50e27; }
+    .actors .nombre p {
+      font-size: 13px;
+      color: #fcf8e3; }
+
+@media screen and (max-width: 1024px) {
+  .container-fluid {
+    width: 100%; }
+
+  .container {
+    width: 100%; }
+
+  .row {
+    width: 100%; }
+
+  .inicio button {
+    margin-top: 2%;
+    margin-left: 4%; }
+
+  .pelicula iframe {
+    width: 100%; }
+
+  .actors img {
+    margin-left: 396px; }
+  .actors .nombre {
+    margin-left: 396px; }
+
+  .pelis {
+    padding-left: 4%;
+    padding-right: 0; }
+    .pelis .pi img {
+      height: 271px; } }
+@media screen and (max-width: 736px) {
+  .container-fluid {
+    width: 100%; }
+
+  .container {
+    width: 100%; }
+
+  .row {
+    width: 100%; }
+
+  .inicio {
+    padding-left: 6%; }
+    .inicio h2 {
+      margin-left: 0; }
+    .inicio button {
+      margin-top: 2%;
+      margin-left: 4%; }
+
+  .pelicula {
+    padding-left: 6%;
+    padding-right: 0; }
+
+  .actors {
+    padding-left: 7%;
+    padding-right: 4%; }
+    .actors img {
+      margin-left: 0;
+      float: left;
+      width: 20%; }
+      .actors img:hover {
+        width: 25%; }
+    .actors .nombre {
+      margin-left: 1%;
+      float: left; }
+
+  .categoria {
+    padding-left: 13%;
+    padding-right: 3%; }
+    .categoria .btn-group .btn {
+      margin-left: 95%; }
+
+  .pelis {
+    padding-left: 10%;
+    padding-right: 0; }
+    .pelis .pi {
+      width: 70%;
+      margin-left: 14%; } }
+
+/*# sourceMappingURL=main.css.map */

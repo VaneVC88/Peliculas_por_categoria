@@ -1,0 +1,70 @@
+.inicio{
+	padding-left: $tres;
+	padding-right: $tres;
+	h2{
+		font-size: 25px;
+		margin-left: 10%;
+		color: $c_white;
+	}
+	button{
+		@include boton(1%, 7px 27px, 17px, $c_gris, $c_red, $border);
+		&:hover{
+			background-color: $c_red;
+			color: $c_gris;
+			border-color: $border;
+		}
+	}
+}
+.pelicula{
+	margin-top: $cinco;
+	ul{
+		padding: 0;
+		li{
+			list-style: none;
+			padding: 0;
+			font-size: 20px;
+			color: $c_white;
+		}
+	}
+	h3{
+		a{
+		color: $c_red;
+		font-size: 18px;
+		text-decoration: none;
+		}
+	}
+	p{
+		color: $c_white;
+		font-size: 15px;
+	}
+}
+
+.actors{
+	padding: 2% 0;
+	padding-bottom: $cinco;
+	h3{
+		margin-left: 615px;
+		color: $c_red;
+		margin-bottom: $tres;
+	} 
+	img{
+		width: 50%;
+		border-radius: 20px;
+		margin-left: 605px;
+		&:hover{
+			width: 55%;
+			opacity: 0.5;
+		}
+	}
+	.nombre{
+		margin-left: 605px;
+		width: $cien;
+		h4{
+			color: $c_red;
+		}
+		p{
+			font-size: 13px;
+			color: $c_white;
+		}
+	}
+}

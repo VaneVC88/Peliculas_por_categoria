@@ -1,0 +1,17 @@
+@mixin boton ($m_top, $pad, $font_s, $color, $bgc, $border){
+	margin-top: $m_top;
+	padding: $pad;
+	font-size: $font_s;
+	color: $color;
+	background-color: $bgc;
+	border-color: $border;
+}
+@mixin mvs($brd, $margin, $p_left, $p_right, $width, $height, $t_align){
+	border: $brd;
+	margin: $margin;
+	padding-left: $p_left;
+	padding-right: $p_right;
+	width: $width;
+	height: $height;
+	text-align: $t_align;
+}

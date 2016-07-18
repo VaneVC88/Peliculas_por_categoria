@@ -1,0 +1,41 @@
+body{
+	background-color: black;
+	.categoria{
+		padding-left: $tres;
+		padding-right: $tres;
+
+		h2{
+			font-size: 25px;
+			margin-left: 10%;
+			color: $c_white;
+		}
+		button{
+			@include boton ($cinco, 7px 27px, 17px, $c_gris, $c_red, $border);
+			&:hover{
+				background-color: $c_red;
+				color: $c_gris;
+				border-color: $border;
+			}
+		}
+	}
+	.pelis{
+		padding-bottom: $cinco;
+		.movies{
+			@include mvs (2px solid $c_red, $dos, 6px, 6px, 21%, 362px, center);
+			img{
+				width: 95%;
+				height: 300px;
+				&:hover{
+					width: $cien;
+				}
+			}
+			a{
+				text-decoration: none;
+				color: $c_white;
+				h2{
+					font-size: 20px;
+				}
+			}
+		}
+	}
+}
