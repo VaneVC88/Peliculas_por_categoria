@@ -5,7 +5,7 @@ body{
 		padding-right: $tres;
 
 		h2{
-			font-size: 25px;
+			font-size: 24px;
 			margin-left: 10%;
 			color: $c_white;
 		}
@@ -21,9 +21,9 @@ body{
 	.pelis{
 		padding-bottom: $cinco;
 		.movies{
-			@include mvs (2px solid $c_red, $dos, 6px, 6px, 21%, 362px, center);
+			@include mvs (2px solid $c_red, 15% $dos $dos, 6px, 6px, 100%, 362px, center);
 			img{
-				width: 95%;
+				max-width: 95%;
 				height: 300px;
 				&:hover{
 					width: $cien;
@@ -33,7 +33,7 @@ body{
 				text-decoration: none;
 				color: $c_white;
 				h2{
-					font-size: 20px;
+					font-size: 1.3em;
 				}
 			}
 		}

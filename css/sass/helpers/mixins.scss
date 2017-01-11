@@ -11,7 +11,7 @@
 	margin: $margin;
 	padding-left: $p_left;
 	padding-right: $p_right;
-	width: $width;
+	max-width: $width;
 	height: $height;
 	text-align: $t_align;
 }

@@ -4,7 +4,7 @@ body {
     padding-left: 3%;
     padding-right: 3%; }
     body .categoria h2 {
-      font-size: 25px;
+      font-size: 24px;
       margin-left: 10%;
       color: #fcf8e3; }
     body .categoria button {
@@ -22,14 +22,14 @@ body {
     padding-bottom: 5%; }
     body .pelis .movies {
       border: 2px solid #c50e27;
-      margin: 2%;
+      margin: 15% 2% 2%;
       padding-left: 6px;
       padding-right: 6px;
-      width: 21%;
+      max-width: 100%;
       height: 362px;
       text-align: center; }
       body .pelis .movies img {
-        width: 95%;
+        max-width: 95%;
         height: 300px; }
         body .pelis .movies img:hover {
           width: 100%; }
@@ -37,7 +37,7 @@ body {
         text-decoration: none;
         color: #fcf8e3; }
         body .pelis .movies a h2 {
-          font-size: 20px; }
+          font-size: 1.3em; }
 
 .bg_red {
   background-color: #c50e27; }
@@ -124,16 +124,32 @@ body {
   .pelicula iframe {
     width: 100%; }
 
+  .actors h3 {
+    margin-left: 22em; }
   .actors img {
-    margin-left: 396px; }
+    margin-left: 37em; }
   .actors .nombre {
-    margin-left: 396px; }
+    margin-left: 37em; }
 
   .pelis {
     padding-left: 4%;
-    padding-right: 0; }
-    .pelis .pi img {
-      height: 271px; } }
+    padding-right: 0; } }
+@media screen and (max-width: 768px) {
+  .container-fluid {
+    width: 100%; }
+
+  .container {
+    width: 100%; }
+
+  .row {
+    width: 100%; }
+
+  .actors h3 {
+    margin-left: 16.5em; }
+  .actors img {
+    margin-left: 27em; }
+  .actors .nombre {
+    margin-left: 27em; } }
 @media screen and (max-width: 736px) {
   .container-fluid {
     width: 100%; }
@@ -154,11 +170,15 @@ body {
 
   .pelicula {
     padding-left: 6%;
-    padding-right: 0; }
+    padding-right: 2%; }
+    .pelicula .info iframe {
+      width: 100%; }
 
   .actors {
     padding-left: 7%;
     padding-right: 4%; }
+    .actors h3 {
+      margin-left: 3%; }
     .actors img {
       margin-left: 0;
       float: left;
@@ -173,13 +193,262 @@ body {
     padding-left: 13%;
     padding-right: 3%; }
     .categoria .btn-group .btn {
-      margin-left: 95%; }
+      margin-left: 10%; }
+
+  .pelis {
+    padding-left: 16%;
+    padding-right: 15%; } }
+@media screen and (max-width: 732px) {
+  .container-fluid {
+    width: 100%; }
+
+  .container {
+    width: 100%; }
+
+  .row {
+    width: 100%; }
+
+  .inicio {
+    padding-left: 6%; }
+    .inicio h2 {
+      margin-left: 0; }
+    .inicio button {
+      margin-top: 2%;
+      margin-left: 4%; }
+
+  .pelicula {
+    padding-left: 6%;
+    padding-right: 2%; }
+
+  .actors {
+    padding-left: 7%;
+    padding-right: 4%; }
+    .actors h3 {
+      margin-left: 3%; }
+    .actors img {
+      margin-left: 0;
+      float: left;
+      width: 20%; }
+      .actors img:hover {
+        width: 25%; }
+    .actors .nombre {
+      margin-left: 1%;
+      float: left; }
+
+  .pelis {
+    padding-left: 20%;
+    padding-right: 16%; } }
+@media screen and (max-width: 640px) {
+  .container-fluid {
+    width: 100%; }
+
+  .container {
+    width: 100%; }
+
+  .row {
+    width: 100%; }
+
+  .inicio {
+    padding-left: 6%; }
+    .inicio h2 {
+      margin-left: 0; }
+    .inicio button {
+      margin-top: 2%;
+      margin-left: 4%; }
+
+  .pelicula {
+    padding-left: 6%;
+    padding-right: 1%; }
+
+  .actors {
+    padding-left: 7%;
+    padding-right: 4%; }
+    .actors h3 {
+      margin-left: 3%; }
+    .actors img {
+      margin-left: 0;
+      float: left;
+      width: 20%; }
+      .actors img:hover {
+        width: 25%; }
+    .actors .nombre {
+      margin-left: 1%;
+      float: left; }
+
+  .pelis {
+    padding-left: 20%;
+    padding-right: 15%; } }
+@media screen and (max-width: 568px) {
+  .container-fluid {
+    width: 100%; }
+
+  .container {
+    width: 100%; }
+
+  .row {
+    width: 100%; }
+
+  .inicio {
+    padding-left: 6%; }
+    .inicio h2 {
+      margin-left: 0; }
+    .inicio button {
+      margin-top: 2%;
+      margin-left: 4%; }
+
+  .pelicula {
+    padding-left: 6%;
+    padding-right: 1%; }
+    .pelicula .info iframe {
+      width: 100%;
+      height: 100%; }
+
+  .actors {
+    padding-left: 7%;
+    padding-right: 4%; }
+    .actors h3 {
+      margin-left: 3%; }
+    .actors img {
+      margin-left: 0;
+      float: left;
+      width: 20%; }
+      .actors img:hover {
+        width: 25%; }
+    .actors .nombre {
+      margin-left: 1%;
+      float: left; }
+
+  .pelis {
+    padding-left: 20%;
+    padding-right: 15%; } }
+@media screen and (max-width: 414px) {
+  .container-fluid {
+    width: 100%; }
+
+  .container {
+    width: 100%; }
+
+  .row {
+    width: 100%; }
+
+  .inicio {
+    padding-left: 6%; }
+    .inicio h2 {
+      margin-left: 0; }
+    .inicio button {
+      margin-top: 2%;
+      margin-left: 4%; }
+
+  .pelicula {
+    padding-left: 7%;
+    padding-right: 0; }
+    .pelicula .info iframe {
+      width: 100%;
+      height: 100%; }
+
+  .actors {
+    padding-left: 7%;
+    padding-right: 4%; }
+    .actors h3 {
+      margin-left: 3%; }
+    .actors img {
+      margin-left: 0;
+      float: left;
+      width: 20%; }
+      .actors img:hover {
+        width: 25%; }
+    .actors .nombre {
+      margin-left: 1%;
+      float: left; }
+
+  .pelis {
+    padding-left: 14%;
+    padding-right: 6%; } }
+@media screen and (max-width: 360px) {
+  .container-fluid {
+    width: 100%; }
+
+  .container {
+    width: 100%; }
+
+  .row {
+    width: 100%; }
+
+  .inicio {
+    padding-left: 6%; }
+    .inicio h2 {
+      margin-left: 0; }
+    .inicio button {
+      margin-top: 2%;
+      margin-left: 4%; }
+
+  .pelicula {
+    padding-left: 8%;
+    padding-right: 0; }
+    .pelicula .info iframe {
+      width: 100%;
+      height: 100%; }
+
+  .actors {
+    padding-left: 7%;
+    padding-right: 4%; }
+    .actors h3 {
+      margin-left: 3%; }
+    .actors img {
+      margin-left: 0;
+      float: left;
+      width: 20%; }
+      .actors img:hover {
+        width: 25%; }
+    .actors .nombre {
+      margin-left: 1%;
+      float: left; }
 
   .pelis {
     padding-left: 10%;
+    padding-right: 2%; } }
+@media screen and (max-width: 320px) {
+  .container-fluid {
+    width: 100%; }
+
+  .container {
+    width: 100%; }
+
+  .row {
+    width: 100%; }
+
+  .inicio {
+    padding-left: 6%; }
+    .inicio h2 {
+      margin-left: 0; }
+    .inicio button {
+      margin-top: 2%;
+      margin-left: 4%; }
+
+  .pelicula {
+    padding-left: 7%;
     padding-right: 0; }
-    .pelis .pi {
-      width: 70%;
-      margin-left: 14%; } }
+    .pelicula .info iframe {
+      width: 100%;
+      height: 100%; }
+
+  .actors {
+    padding-left: 7%;
+    padding-right: 4%; }
+    .actors h3 {
+      margin-left: 3%; }
+    .actors img {
+      margin-left: 0;
+      float: left;
+      width: 20%; }
+      .actors img:hover {
+        width: 25%; }
+    .actors .nombre {
+      margin-left: 1%;
+      float: left; }
+
+  .pelis {
+    padding-left: 11%;
+    padding-right: 1%; } }
 
 /*# sourceMappingURL=main.css.map */
